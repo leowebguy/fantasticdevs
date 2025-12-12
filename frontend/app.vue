@@ -7,7 +7,7 @@ import Header from '@/components/header';
 import Footer from '@/components/footer';
 
 const { public: { NUXT_ENV, NUXT_SITE_NAME } } = useRuntimeConfig();
-const siteName = computed(() => NUXT_SITE_NAME || 'Craft Nuxt');
+const siteName = computed(() => NUXT_SITE_NAME || 'Fantastic Devs');
 
 // HMR CMS
 if (NUXT_ENV === 'local')

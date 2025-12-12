@@ -1,4 +1,4 @@
-dateModified: 1763750207
+dateModified: 1765556360
 elementSources:
   craft\elements\Entry:
     -
@@ -89,7 +89,7 @@ meta:
     2fd068a0-a9f1-47db-a612-f8843b38ebbb: Active # Active
     3b1e738c-dc73-4504-9532-08193c176f59: Comps # Comps
     3b6704b9-9ae8-4396-9ae5-8bfd6f316939: Style # Style
-    6d0d3aa4-84be-441d-8fcc-2ab2d6db2503: Starters # Starters
+    6d0d3aa4-84be-441d-8fcc-2ab2d6db2503: Sites # Sites
     6d06d514-e77d-4295-a6a5-5b4749e10250: Modals # Modals
     6d752ebe-b268-4c30-9a10-82fff34bced3: Tag # Tag
     7dac7ab3-08a0-4af8-ba7c-cbecd0726f08: Simple # Simple
@@ -98,7 +98,7 @@ meta:
     23f91390-c849-40af-8352-c951f754ceef: SVG # SVG
     24b1be1b-6e94-4ffd-b65c-786a37a9e951: Div # Div
     48f8c1bc-e02d-49ac-af6b-8e10502558a9: Copy # Copy
-    58ccb571-6c72-449f-8e7b-6f43c5d416b3: $PRIMARY_SITE_NAME # $PRIMARY_SITE_NAME
+    58ccb571-6c72-449f-8e7b-6f43c5d416b3: $SYSTEM_NAME # $SYSTEM_NAME
     67d496d8-cb84-43a5-b5f4-5b794824def5: Modal # Modal
     70d45108-c786-4c18-8a99-a667b84d7a7b: Form # Form
     72d97187-d1db-463a-a31c-16c63adbb72e: Link # Link

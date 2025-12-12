@@ -1,7 +1,7 @@
 isPublic: true
 name: 'Public Schema'
 scope:
-  - 'sites.58ccb571-6c72-449f-8e7b-6f43c5d416b3:read' # $PRIMARY_SITE_NAME
+  - 'sites.58ccb571-6c72-449f-8e7b-6f43c5d416b3:read' # $SYSTEM_NAME
   - 'sections.6d06d514-e77d-4295-a6a5-5b4749e10250:read' # Modals
   - 'sections.c4b4f50d-7d62-4a4c-bbf8-7aae00fd82c7:read' # Pages
   - 'sections.1cb3b272-0dab-467f-a33f-6aa5c70790e1:read' # Statics

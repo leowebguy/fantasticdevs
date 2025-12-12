@@ -3,7 +3,6 @@
 # ddev
 /.ddev/*
 !/.ddev/config.yaml
-!/.ddev/docker-compose.webpack.yaml
 !/.ddev/nginx_full/api-site.conf
 !/.ddev/nginx_full/nuxt-site.conf
 

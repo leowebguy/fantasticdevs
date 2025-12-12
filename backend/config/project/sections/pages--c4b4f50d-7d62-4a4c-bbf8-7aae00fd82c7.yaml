@@ -13,7 +13,7 @@ previewTargets:
     urlFormat: '{uri}'
 propagationMethod: all
 siteSettings:
-  58ccb571-6c72-449f-8e7b-6f43c5d416b3: # $PRIMARY_SITE_NAME
+  58ccb571-6c72-449f-8e7b-6f43c5d416b3: # $SYSTEM_NAME
     enabledByDefault: true
     hasUrls: true
     template: null

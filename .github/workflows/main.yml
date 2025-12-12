@@ -1,4 +1,4 @@
-name: nuxt app
+name: fantastic devs
 
 on:
   push:
@@ -28,7 +28,7 @@ jobs:
           username: ubuntu
           key: ${{ secrets.GIT_KEY }}
           source: './backend'
-          target: '/var/www/nuxt'
+          target: '/var/www/fantasticdevs'
           tar_tmp_path: '~/tmp/tar'
           overwrite: true
       - uses: appleboy/ssh-action@v1
@@ -38,7 +38,7 @@ jobs:
           username: ubuntu
           key: ${{ secrets.GIT_KEY }}
           script: |
-            cd /var/www/nuxt/backend
+            cd /var/www/fantasticdevs/backend
             php craft db/backup storage/backups/rollback.sql --overwrite --interactive=0
             bash backup.sh
             php craft migrate/all --interactive=0
@@ -69,7 +69,7 @@ jobs:
       - run: cd frontend && npx nuxt build --preset github_pages --non-interactive
         env:
           NUXT_ENV: 'prod'
-          NUXT_SITE_NAME: 'Nuxt Starter'
+          NUXT_SITE_NAME: 'Fantastic Devs'
           NUXT_BASE_URL: ${{ vars.NUXT_BASE_URL }}
           NUXT_CRAFT_URL: ${{ vars.NUXT_CRAFT_URL }}
           NUXT_TURNSTILE_KEY: ${{ vars.NUXT_TURNSTILE_KEY }}

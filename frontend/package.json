@@ -1,5 +1,5 @@
 {
-  "name": "starter-nuxt",
+  "name": "fantasticdevs",
   "description": "Craft CMS, NEO, GraphQL, Nuxt, Nitro, Vue, Vite",
   "author": {
     "name": "Leo Leoncio",
@@ -15,7 +15,7 @@
   "devDependencies": {
     "@nuxt/devtools": "^3.1",
     "@nuxt/image": "^2.0",
-    "@nuxt/scripts": "^0.13",
+    "@nuxt/scripts": "^0.12",
     "@nuxtjs/turnstile": "^1.1",
     "@vuelidate/core": "^2.0",
     "@vuelidate/validators": "^2.0",
