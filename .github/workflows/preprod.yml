@@ -3,7 +3,7 @@ name: build
 on:
   push:
     branches:
-      - main-off
+      - preprod
     paths-ignore:
       - '.ddev/**'
       - 'storage/backups/**/*'
@@ -28,7 +28,7 @@ jobs:
           username: ubuntu
           key: ${{ secrets.GIT_KEY }}
           source: './backend'
-          target: '/var/www/fantasticdevs'
+          target: '/var/www/fantasticdevs-preprod'
           tar_tmp_path: '~/tmp/tar'
           overwrite: true
       - uses: appleboy/ssh-action@v1
@@ -38,7 +38,7 @@ jobs:
           username: ubuntu
           key: ${{ secrets.GIT_KEY }}
           script: |
-            cd /var/www/fantasticdevs/backend
+            cd /var/www/fantasticdevs-preprod/backend
             php craft db/backup storage/backups/rollback.sql --overwrite --interactive=0
             bash backup.sh
             php craft migrate/all --interactive=0
@@ -57,7 +57,7 @@ jobs:
       pages: write
       id-token: write
     environment:
-      name: github-pages-main
+      name: github-pages-preprod
     steps:
       - uses: actions/checkout@v4
         with:
