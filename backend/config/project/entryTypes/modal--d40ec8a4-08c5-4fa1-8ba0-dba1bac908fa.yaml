@@ -1,0 +1,70 @@
+color: null
+description: null
+fieldLayouts:
+  dd03dc0d-fdd3-40fc-b832-46bc77b36ef6:
+    cardThumbAlignment: end
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            dateAdded: '2025-11-09T23:11:30+00:00'
+            disabled: false
+            elementCondition: null
+            id: null
+            includeInCards: false
+            inputType: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            providesThumbs: false
+            readonly: false
+            required: true
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: f4f8d03b-f702-4272-a8a3-9d3e64934753
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2025-11-09T23:34:12+00:00'
+            editCondition: null
+            elementCondition: null
+            fieldUid: 920df38c-9e5e-4f45-ab0a-7e0ed71678ca # Comps Short
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: eb50437b-dd0a-4a72-8674-8e235a2ade98
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: f64c2599-2aa4-4140-8748-766b574aa483
+        userCondition: null
+handle: modal
+hasTitleField: true
+icon: files
+name: Modal
+showSlugField: true
+showStatusField: true
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+titleFormat: null
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

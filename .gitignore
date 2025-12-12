@@ -1,0 +1,34 @@
+.release
+
+# ddev
+/.ddev/*
+!/.ddev/config.yaml
+!/.ddev/docker-compose.webpack.yaml
+!/.ddev/nginx_full/api-site.conf
+!/.ddev/nginx_full/nuxt-site.conf
+
+# ide
+.vscode
+.idea
+
+# thumbnails
+._*
+
+# zip/gz
+/**/*.zip
+/**/*.tar
+/**/*.gz
+
+# misc
+*.sass-cache
+*.cache
+*.php_cs.cache
+*.DS_Store
+*.project
+*.settings
+*.esproj
+*.sublime-workspace
+*.sublime-project
+*.code-workspace
+*.tmproj
+*.tmproject

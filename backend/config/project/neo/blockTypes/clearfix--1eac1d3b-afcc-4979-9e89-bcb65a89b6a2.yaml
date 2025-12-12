@@ -1,0 +1,48 @@
+childBlocks: null
+color: null
+conditions: null
+description: ''
+enabled: true
+entryType: null
+field: 920df38c-9e5e-4f45-ab0a-7e0ed71678ca # Comps Short
+fieldLayouts:
+  54558021-0bc3-44fe-864a-70d92906d00a:
+    cardThumbAlignment: end
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            dateAdded: '2025-11-09T23:33:53+00:00'
+            editCondition: null
+            elementCondition: null
+            fieldUid: c1b02736-633f-4f45-82c0-6acfd2a53144 # Class
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 172209ac-92a2-44db-8aa5-8a1f80815a61
+            userCondition: null
+            warning: null
+            width: 25
+        name: Misc
+        uid: d457b8aa-d1f9-464b-b828-65b4089c4f1b
+        userCondition: null
+group: 239451a1-6f87-4a35-9c7a-c9ae844c413a # Comps
+groupChildBlockTypes: true
+handle: clearfix
+icon: null
+iconFilename: ''
+ignorePermissions: true
+maxBlocks: 0
+maxChildBlocks: 0
+maxSiblingBlocks: 0
+minBlocks: 0
+minChildBlocks: 0
+minSiblingBlocks: 0
+name: Clearfix
+topLevel: false

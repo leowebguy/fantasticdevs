@@ -1,0 +1,48 @@
+childBlocks: null
+color: null
+conditions: null
+description: ''
+enabled: true
+entryType: null
+field: 3b1e738c-dc73-4504-9532-08193c176f59 # Comps
+fieldLayouts:
+  ef82cd39-be54-4302-a035-befa52435932:
+    cardThumbAlignment: end
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            dateAdded: '2025-10-18T02:48:16+00:00'
+            editCondition: null
+            elementCondition: null
+            fieldUid: e2a9996a-df6e-43ad-80db-9d2de4a19385 # Link
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: b5c55e29-ae90-4fe0-9bf5-bc109fc78ac7
+            userCondition: null
+            warning: null
+            width: 100
+        name: Misc
+        uid: b2735307-3fe5-4717-ba62-3a4ec1242535
+        userCondition: null
+group: 72389ead-a876-426f-b8c6-c0be4bd3b161 # Comps
+groupChildBlockTypes: true
+handle: link
+icon: null
+iconFilename: ''
+ignorePermissions: true
+maxBlocks: 0
+maxChildBlocks: 0
+maxSiblingBlocks: 0
+minBlocks: 0
+minChildBlocks: 0
+minSiblingBlocks: 0
+name: Link
+topLevel: false

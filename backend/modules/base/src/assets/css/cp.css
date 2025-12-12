@@ -1,0 +1,95 @@
+/*.btn.submit {*/
+/*    background-color: var(--gray-800) !important;*/
+/*}*/
+
+/*.btn.submit:not(.disabled):not(.inactive):not(.loading):focus,*/
+/*.btn.submit:not(.disabled):not(.inactive):not(.loading):hover,*/
+/*.btn.submit:not(.disabled):not(.inactive):not(.loading):active {*/
+/*    background-color: var(--black) !important;*/
+/*}*/
+
+textarea.code,
+input.code{
+    font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace !important;
+    background: black !important;
+    color: white !important;
+}
+
+.hyper-input-component .hyper-body-wrapper .instructions {
+    display: none;
+}
+
+/*.ni_blocks .instructions {*/
+/*  position: absolute;*/
+/*  top: 0;*/
+/*  right: 20px;*/
+/*  color: var(--indicator-icon-color) !important;*/
+/*}*/
+
+/*.instructions > p {*/
+/*  font-size: .75rem;*/
+/*}*/
+
+/*Redactor Tweaks*/
+
+/*.input .redactor-styles {*/
+/*    font-size: 14px !important;*/
+/*    line-height: 20px !important;*/
+/*}*/
+
+/*.input .redactor-toolbar {*/
+/*    padding: 0 !important;*/
+/*    border-bottom: 1px solid #e3e5e8 !important;*/
+/*}*/
+
+/*.redactor-toolbar a.re-button-icon {*/
+/*    box-shadow: none !important;*/
+/*    padding: 10px 12px !important;*/
+/*    margin: 0 !important;*/
+/*    border-right: 1px solid rgba(0, 0, 0, 0.05) !important;*/
+/*    border-radius: 0 !important;*/
+/*    font-size: 14px !important;*/
+/*    background: #fff !important;*/
+/*    color: #000 !important;*/
+/*}*/
+
+/*.redactor-toolbar a.re-button-icon:hover {*/
+/*    background-color: #d5d8dd !important;*/
+/*    color: #000 !important;*/
+/*}*/
+
+/*.redactor-source {*/
+/*    font-size: 12px !important;*/
+/*    line-height: 18px !important;*/
+/*}*/
+
+/*body .redactor-dropdown-format .redactor-dropdown-item-h1 {*/
+/*    font-size: 28px !important;*/
+/*    line-height: 32px !important;*/
+/*}*/
+
+/*body .redactor-dropdown-format .redactor-dropdown-item-h2 {*/
+/*    font-size: 24px !important;*/
+/*    line-height: 36px !important;*/
+/*}*/
+
+/*body .redactor-dropdown-format .redactor-dropdown-item-h3 {*/
+/*    font-size: 21px !important;*/
+/*    line-height: 30px !important;*/
+/*}*/
+
+/*body .redactor-dropdown-format .redactor-dropdown-item-h4 {*/
+/*    font-size: 18px !important;*/
+/*    line-height: 26px !important;*/
+/*}*/
+
+/*body .redactor-dropdown-format .redactor-dropdown-item-h5 {*/
+/*    font-size: 16px !important;*/
+/*    line-height: 23px !important;*/
+/*}*/
+
+/*.superTableMatrix[data-type='items'] div.fields > .field:nth-child(1)*/
+/*.superTableMatrix[data-type='items'] div.fields > .field:nth-child(2),*/
+/*.superTableMatrix[data-type='items'] div.fields > .field:nth-child(3) {*/
+/*  max-width: 200px;*/
+/*}*/

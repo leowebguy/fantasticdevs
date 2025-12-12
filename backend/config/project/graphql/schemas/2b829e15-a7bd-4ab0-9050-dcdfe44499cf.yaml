@@ -1,0 +1,12 @@
+isPublic: true
+name: 'Public Schema'
+scope:
+  - 'sites.58ccb571-6c72-449f-8e7b-6f43c5d416b3:read' # $PRIMARY_SITE_NAME
+  - 'sections.6d06d514-e77d-4295-a6a5-5b4749e10250:read' # Modals
+  - 'sections.c4b4f50d-7d62-4a4c-bbf8-7aae00fd82c7:read' # Pages
+  - 'sections.1cb3b272-0dab-467f-a33f-6aa5c70790e1:read' # Statics
+  - 'volumes.fc1f2ac6-c009-4af8-9b4f-8451b1811ca4:read' # Img
+  - 'volumes.cbbd5bad-9fdb-42dc-a4cc-e1282a8ba574:read' # SVG
+  - 'globalsets.a0380aee-c723-49f7-a7ed-74648b932a26:read' # Header
+  - 'globalsets.e037630a-7de0-4588-b00d-12779ef07adf:read' # Footer
+  - 'globalsets.a298acb4-d276-4512-9a19-168254017e24:read' # JSON

@@ -1,0 +1,53 @@
+fieldLayouts:
+  146c8315-e6ba-4283-86e1-97f0fd59e057:
+    cardThumbAlignment: end
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            dateAdded: '2025-10-20T22:01:55+00:00'
+            editCondition: null
+            elementCondition: null
+            fieldUid: 7e89e09c-6139-42ac-959e-8c30d6e4c9ee # Label
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 10735760-cdaa-4ffe-97e8-8e59769bdf7f
+            userCondition: null
+            warning: null
+            width: 100
+        name: General
+        uid: 8230b965-2a93-4370-b03f-1f39a85b1ac2
+        userCondition: null
+      -
+        elementCondition: null
+        elements:
+          -
+            dateAdded: '2025-10-20T22:01:55+00:00'
+            editCondition: null
+            elementCondition: null
+            fieldUid: 94160adb-ed75-4c00-a2e2-d50065171812 # JS
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: abde3ddb-7a27-4a40-b87a-ec951f134183
+            userCondition: null
+            warning: null
+            width: 100
+        name: Extras
+        uid: 1ebbd595-6388-4825-998d-bd48fd5fcdde
+        userCondition: null
+handle: footer
+name: Footer
+sortOrder: 2

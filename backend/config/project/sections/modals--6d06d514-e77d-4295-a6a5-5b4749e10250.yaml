@@ -1,0 +1,19 @@
+defaultPlacement: end
+enableVersioning: true
+entryTypes:
+  -
+    uid: d40ec8a4-08c5-4fa1-8ba0-dba1bac908fa # Modal
+handle: modals
+maxAuthors: 1
+name: Modals
+propagationMethod: all
+siteSettings:
+  58ccb571-6c72-449f-8e7b-6f43c5d416b3: # $PRIMARY_SITE_NAME
+    enabledByDefault: true
+    hasUrls: true
+    template: null
+    uriFormat: 'modals/{slug}'
+structure:
+  maxLevels: 1
+  uid: d8b98a60-b9f1-4e41-b03b-63d9fb5c3c6f
+type: structure

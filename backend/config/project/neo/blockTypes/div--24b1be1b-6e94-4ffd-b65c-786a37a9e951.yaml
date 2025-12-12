@@ -1,0 +1,75 @@
+childBlocks:
+  - div
+  - clearfix
+  - heading
+  - copy
+  - link
+  - img
+  - svg
+  - markup
+  - accordion
+  - form
+color: null
+conditions: null
+description: ''
+enabled: true
+entryType: null
+field: 3b1e738c-dc73-4504-9532-08193c176f59 # Comps
+fieldLayouts:
+  7f5719a3-ad30-42c7-9767-bba6a5a7f5c4:
+    cardThumbAlignment: end
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            dateAdded: '2025-10-18T02:40:29+00:00'
+            editCondition: null
+            elementCondition: null
+            fieldUid: 541f7a0c-0e80-42d1-88ce-dc724469b21a # Div
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: Type
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: f44ca001-1467-495a-9a45-def0a8e58f50
+            userCondition: null
+            warning: null
+            width: 25
+          -
+            dateAdded: '2025-10-18T02:40:29+00:00'
+            editCondition: null
+            elementCondition: null
+            fieldUid: c1b02736-633f-4f45-82c0-6acfd2a53144 # Class
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 24e5ee04-98bc-44b9-b078-fdd6db173041
+            userCondition: null
+            warning: null
+            width: 25
+        name: Misc
+        uid: 104ff2e2-0174-4de7-8a1a-16b19041b8ca
+        userCondition: null
+group: null
+groupChildBlockTypes: true
+handle: div
+icon: null
+iconFilename: ''
+ignorePermissions: true
+maxBlocks: 0
+maxChildBlocks: 0
+maxSiblingBlocks: 0
+minBlocks: 0
+minChildBlocks: 0
+minSiblingBlocks: 0
+name: Div
+topLevel: false

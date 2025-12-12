@@ -1,0 +1,82 @@
+childBlocks: null
+color: null
+conditions: null
+description: ''
+enabled: true
+entryType: null
+field: 920df38c-9e5e-4f45-ab0a-7e0ed71678ca # Comps Short
+fieldLayouts:
+  02a3bbfa-1913-430f-9737-b9bd425e23ea:
+    cardThumbAlignment: end
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            dateAdded: '2025-11-09T23:33:53+00:00'
+            editCondition: null
+            elementCondition: null
+            fieldUid: b3e3d729-2be1-4f31-8155-0552917f7095 # Text
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 5617a24d-d44a-4633-b5ed-316b2f651ee9
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2025-11-09T23:33:53+00:00'
+            editCondition: null
+            elementCondition: null
+            fieldUid: 6d752ebe-b268-4c30-9a10-82fff34bced3 # Tag
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 6c7c8e31-3cde-4340-87a4-afb7418e0f1d
+            userCondition: null
+            warning: null
+            width: 25
+          -
+            dateAdded: '2025-11-09T23:33:53+00:00'
+            editCondition: null
+            elementCondition: null
+            fieldUid: c1b02736-633f-4f45-82c0-6acfd2a53144 # Class
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: d1875462-26f5-492f-af3a-fb5178c2f528
+            userCondition: null
+            warning: null
+            width: 25
+        name: Misc
+        uid: 755b0cc4-f305-4003-bb22-6f9bac5e19f1
+        userCondition: null
+group: 239451a1-6f87-4a35-9c7a-c9ae844c413a # Comps
+groupChildBlockTypes: true
+handle: heading
+icon: null
+iconFilename: ''
+ignorePermissions: true
+maxBlocks: 0
+maxChildBlocks: 0
+maxSiblingBlocks: 0
+minBlocks: 0
+minChildBlocks: 0
+minSiblingBlocks: 0
+name: Heading
+topLevel: false

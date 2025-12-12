@@ -1,0 +1,16 @@
+columnSuffix: null
+handle: style_
+instructions: null
+name: Style
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: 200
+  code: true
+  initialRows: 4
+  multiline: false
+  placeholder: 'i.e. width: 120px;'
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText

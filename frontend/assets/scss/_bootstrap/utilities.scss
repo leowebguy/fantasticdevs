@@ -1,0 +1,176 @@
+//@each $color, $value in $grays {
+//    .bg-gray-#{$color} {
+//        //color: color-contrast($value);
+//        background-color: #{$value} !important;
+//    }
+//}
+
+//@each $color, $value in $themes {
+//    .bg-theme-#{$color} {
+//        //color: color-contrast($value);
+//        background-color: #{$value} !important;
+//    }
+//}
+
+//@each $color, $value in $theme-colors-short {
+//    .text-#{$color} {
+//        &, & > a {
+//            color: $value !important;
+//        }
+//    }
+//    .hover-#{$color} {
+//        &:hover {
+//            color: $value !important;
+//        }
+//    }
+//}
+
+//@each $color, $value in $theme-colors-short {
+//    .btn-hover-#{$color} {
+//        &:hover {
+//            color: color-contrast($value) !important;
+//            background-color: #{$value} !important;
+//            border-color: #{$value} !important;
+//        }
+//    }
+//}
+
+//.overlay {
+//    &::before {
+//        content: "";
+//        position: absolute;
+//        inset: 0;
+//    }
+//}
+
+//@each $i, $value in $opacities {
+//    .overlay-#{$i} {
+//        &::before {
+//            opacity: #{$value} !important;
+//        }
+//    }
+//}
+
+//.overlay-dark {
+//    &::before {
+//        background-color: var(--black) !important;
+//    }
+//}
+
+//@each $z, $value in $zindexes {
+//    .z-index-#{$z} {
+//        z-index: $value;
+//    }
+//}
+
+//@each $space, $value in $spacers {
+//    .spacer-#{$space} {
+//        display: block;
+//        width: 100%;
+//        height: $value;
+//    }
+//}
+
+@each $color, $value in $colors {
+    .fill-#{$color} {
+        fill: $value !important;
+    }
+    .stroke-#{$color} {
+        stroke: $value !important;
+    }
+}
+
+//$layers: (25, 40, 50, 75, 100);
+//
+//@each $layer in $layers {
+//    .vh-#{$layer} {
+//        height: #{$layer}vh;
+//    }
+//    .vw-#{$layer} {
+//        height: #{$layer}vw;
+//    }
+//    @each $breakpoint in map-keys($grid-breakpoints) {
+//        @include media-min($breakpoint) {
+//            $infix: breakpoint-infix($breakpoint, $grid-breakpoints);
+//            // vh
+//            .vh#{$infix}-#{$layer} {
+//                height: #{$layer}vh;
+//            }
+//            // vw
+//            .vw#{$infix}-#{$layer} {
+//                height: #{$layer}vw;
+//            }
+//        }
+//    }
+//}
+
+//.img-shifted {
+//    position: relative;
+//    overflow: hidden;
+//
+//    &.shift-left {
+//        width: 100%;
+//        @include make-widths-outside-container();
+//        float: right;
+//    }
+//
+//    &.shift-right {
+//        width: 100%;
+//        @include make-widths-outside-container();
+//    }
+//
+//    &.img-shifted-with-edge {
+//        &.shift-left {
+//            @include make-widths-outside-container-with-edge();
+//        }
+//
+//        &.shift-right {
+//            @include make-widths-outside-container-with-edge();
+//        }
+//    }
+//}
+
+//.img-fullplus {
+//    margin-left: -#{$grid-gutter-width * 2};
+//    width: calc(100% + #{$grid-gutter-width * 4});
+//}
+
+//$bg-positions-y: "top", "bottom", "center";
+//$bg-positions-x: "left", "right", "center";
+//
+//@each $bg-position-y in $bg-positions-y {
+//    @each $bg-position-x in $bg-positions-x {
+//        .bg-position-#{$bg-position-y}-#{$bg-position-x} {
+//            background-position-y: #{$bg-position-y};
+//            background-position-x: #{$bg-position-x};
+//        }
+//    }
+//}
+//
+//$layer-widths: (0, 10, 20, 30, 40, 50, 60, 70, 80, 90, 100);
+//$layer-heights: (0, 10, 20, 30, 40, 50, 60, 70, 80, 90, 100);
+//$layer-verticals: "top", "bottom";
+//$layer-horizontals: "left", "right";
+//
+//@each $layer-height in $layer-heights {
+//    @each $layer-width in $layer-widths {
+//        @each $layer-vertical in $layer-verticals {
+//            @each $layer-horizontal in $layer-horizontals {
+//                @each $color, $value in $theme-colors-short {
+//                    .bg-layer-#{$color}-#{$layer-vertical}-#{$layer-height}-#{$layer-horizontal}-#{$layer-width} {
+//                        &::before {
+//                            content: '';
+//                            position: absolute;
+//                            #{$layer-horizontal}: 0;
+//                            #{$layer-vertical}: 0;
+//                            width: #{$layer-width * 1%};
+//                            height: #{$layer-height * 1%};
+//                            background-color: $value;
+//                            z-index: -1;
+//                        }
+//                    }
+//                }
+//            }
+//        }
+//    }
+//}

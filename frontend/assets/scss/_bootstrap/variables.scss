@@ -1,0 +1,310 @@
+// Options
+//$enable-caret: false !default;
+//$enable-shadows: true !default;
+$enable-rfs: false !default;
+$enable-validation-icons: false !default;
+$enable-negative-margins: false !default;
+$enable-dark-mode: false !default;
+//$transition-standard-time: 0.25s !default;
+$nav-transition: all 300ms ease-in-out !default;
+
+// Prefix for :root CSS variables
+$prefix: '';
+
+// The contrast ratio to reach against white, to determine if color changes from "light" to "dark". Acceptable values for WCAG 2.0 are 3, 4.5 and 7.
+// See https://www.w3.org/TR/WCAG20/#visual-audio-contrast-contrast
+$min-contrast-ratio: 3 !default;
+
+$blue: #0d5cd1 !default;
+$navy: #0E2951 !default;
+$green: #6aa62d !default;
+$fern: #3e7128 !default;
+$indigo: #6610f2 !default;
+$purple: #ab3192 !default;
+$violet: #7129a1 !default;
+$pink: #b8246e !default;
+$red: #ad112a !default;
+$orange: #c4610e !default;
+$yellow: #d5a209 !default;
+$teal: #14aa7e !default;
+$cyan: #0ca3c1 !default;
+$gray: #9398a4 !default;
+$black: #000 !default;
+$white: #fff !default;
+$light: #f7f7f7 !default;
+$dark: #212121 !default;
+
+$theme: $blue !default;
+
+$colors: (
+    "blue": $blue,
+    //"navy": $navy,
+    //"green": $green,
+    //"fern": $fern,
+    //"indigo": $indigo,
+    //"purple": $purple,
+    //"violet": $violet,
+    //"pink": $pink,
+    "red": $red,
+    "orange": $orange,
+    "yellow": $yellow,
+    //"teal": $teal,
+    //"cyan": $cyan,
+    "gray": $gray,
+    "black": $black,
+    "white": $white,
+    "light": $light,
+    "dark": $dark,
+) !default;
+
+$theme-050: lighten($theme, 60%) !default;
+$theme-100: lighten($theme, 48%) !default;
+$theme-200: lighten($theme, 36%) !default;
+$theme-300: lighten($theme, 24%) !default;
+$theme-400: lighten($theme, 12%) !default;
+$theme-500: $theme !default;
+$theme-600: darken($theme, 7%) !default;
+$theme-700: darken($theme, 14%) !default;
+$theme-800: darken($theme, 21%) !default;
+$theme-900: darken($theme, 28%) !default;
+
+$themes: (
+    "050": $theme-050,
+    "100": $theme-100,
+    "200": $theme-200,
+    "300": $theme-300,
+    "400": $theme-400,
+    "500": $theme-500,
+    "600": $theme-600,
+    "700": $theme-700,
+    "800": $theme-800,
+    "900": $theme-900
+) !default;
+
+$primary: $theme !default;
+$secondary: $yellow !default;
+$tertiary: $white !default;
+$success: $fern !default;
+$info: $cyan !default;
+$warning: $yellow !default;
+$danger: $red !default;
+
+$theme-colors: (
+    "primary": $theme,
+    "secondary": $secondary,
+    //"tertiary": $tertiary,
+    "success": $success,
+    "info": $info,
+    "warning": $warning,
+    "danger": $danger,
+    "blue": $blue,
+    "navy": $navy,
+    "green": $green,
+    //"fern": $fern,
+    //"purple": $purple,
+    //"violet": $violet,
+    "gray": $gray,
+    "black": $black,
+    "white": $white,
+    "light": $light,
+    "dark": $dark,
+    "theme": $theme,
+) !default;
+
+$theme-colors-short: (
+    "theme": $theme,
+    //"theme-050": $theme-050,
+    "primary": $primary,
+    "secondary": $secondary,
+    //"blue": $blue,
+    //"navy": $navy,
+    //"green": $green,
+    "light": $light,
+    "dark": $dark,
+) !default;
+
+// Customize the light and dark text colors for use in our color contrast function.
+$color-contrast-dark: $black !default;
+$color-contrast-light: $white !default;
+
+// Spacing
+$spacer: 1rem !default;
+$spacers: (
+    0: 0,
+    1: ($spacer * 0.25),
+    2: ($spacer * 0.5),
+    3: $spacer,
+    4: ($spacer * 1.5),
+    5: ($spacer * 2),
+    6: ($spacer * 3),
+    7: ($spacer * 4),
+    8: ($spacer * 5),
+    9: ($spacer * 6),
+    10: ($spacer * 10)
+) !default;
+
+// Body
+$body-color: $dark !default;
+
+// Links
+//$link-color: $primary !default;
+//$link-decoration: underline !default;
+//$link-hover-color: $navy !default;
+
+// Active bg
+//$pagination-active-bg: $secondary !default;
+//$pagination-active-border-color: $secondary !default;
+
+// Grid columns
+$grid-gutter-width: 2.5rem !default;
+
+// Borders
+$border-radius: 0 !default;
+$border-radius-sm: $border-radius !default;
+$border-radius-lg: $border-radius !default;
+$border-radius-xl: $border-radius !default;
+
+// Box Shadow
+$box-shadow: 0 .35rem .7rem rgba($black, .15) !default;
+$box-shadow-lg: 0 1rem 3rem rgba($black, .175) !default;
+
+// Typography
+$font-family-sans-serif: 'Inter', system-ui !default;
+$font-weight-base: 200 !default;
+
+$headings-font-family: $font-family-sans-serif;
+$headings-font-weight: 700 !default;
+$headings-margin-bottom: $spacer * 1.5 !default;
+
+$font-size-root: 16px !default;
+$font-size-base: 1.125rem !default;
+$font-size-sm: $font-size-root * .825 !default;
+$font-size-lg: $font-size-root * 1.25 !default;
+$lead-font-size: $font-size-root * 1.35 !default;
+$small-font-size: $font-size-sm !default;
+$smaller-font-size: $font-size-root * .7 !default;
+
+// Buttons
+$btn-padding-y: .65rem !default;
+$btn-padding-x: 3.5rem !default;
+$btn-font-size: $font-size-base !default;
+$btn-font-weight: 600 !default;
+$btn-padding-y-lg: .75rem !default;
+$btn-padding-x-lg: 3rem !default;
+
+// Forms
+$form-label-margin-bottom: .25rem !default;
+
+// Inputs
+$input-focus-bg: var(--light) !default;
+$input-focus-box-shadow: none !default;
+$input-focus-width: 0 !default;
+
+// Validation
+$form-feedback-font-size: $font-size-sm !default;
+
+// Modals
+$modal-inner-padding: $spacer !default;
+$modal-content-bg: var(--white) !default;
+$modal-content-border-width: 0 !default;
+//$modal-sm: 400px !default;
+//$modal-md: 640px !default;
+//$modal-lg: 850px !default;
+
+// Offcanvas
+//$offcanvas-bg-color: var(--dark) !default;
+//$offcanvas-color: var(--white) !default;
+
+// Dropdowns
+//$dropdown-spacer: 0 !default;
+//$dropdown-border-radius: 0 !default;
+//$dropdown-link-color: var(--navy) !default;
+//$dropdown-link-hover-color: var(--primary) !default;
+//$dropdown-link-hover-bg: var(--gray-100) !default;
+//$dropdown-link-active-color: var(--gray-800) !default;
+//$dropdown-link-active-bg: var(--gray-200) !default;
+
+// Accordion
+//$accordion-padding-y: .25rem !default;
+//$accordion-padding-x: 1.5rem !default;
+//$accordion-color: var(--body-color) !default;
+//$accordion-bg: $white !default;
+//$accordion-border-color: var(--theme) !default;
+//$accordion-border-radius: 0 !default;
+//$accordion-button-color: var(--body-color) !default;
+//$accordion-button-bg: var(--light) !default;
+$accordion-button-active-color: var(--white) !default;
+$accordion-button-active-bg: var(--theme) !default;
+$accordion-button-focus-border-color: var(--light) !default;
+$accordion-button-focus-box-shadow: none !default;
+//$accordion-icon-transform: none !default;
+$accordion-button-icon: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#222" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708"/></svg>');
+$accordion-button-active-icon: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#fff" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708"/></svg>');
+
+// Cards
+//$card-spacer-y: $grid-gutter-width * 1 !default;
+//$card-spacer-x: $grid-gutter-width * 1 !default;
+//$card-border-color: var(--navy) !default;
+//$card-border-radius: var(--border-radius-lg) !default;
+//$card-border-radius: var(--border-radius-lg) !default;
+
+// Close
+$btn-close-width: 1.2em !default;
+$btn-close-height: $btn-close-width !default;
+//$btn-close-color: $navy !default;
+//$btn-close-opacity: .75 !default;
+//$btn-close-hover-opacity: 1 !default;
+
+// Opacity
+//$opacities: (
+//    0: 0,
+//    10: 0.1,
+//    20: 0.2,
+//    30: 0.3,
+//    40: 0.4,
+//    50: 0.5,
+//    60: 0.6,
+//    70: 0.7,
+//    80: 0.8,
+//    90: 0.9,
+//    100: 1
+//) !default;
+
+// Z-index
+$zindexes: (
+    //n3: -3,
+    //n2: -2,
+    //n1: -1,
+    0: 0,
+    1: 1,
+    2: 2,
+    3: 3,
+    4: 4,
+    5: 5
+) !default;
+
+// Code
+//$code-color: $red !default;
+
+// Navbar
+//$navbar-padding-y: 0rem;
+//$navbar-padding-x: 0rem;
+//$navbar-nav-link-padding-x: 0.3rem;
+//$nav-link-font-size: 1rem;
+//$nav-link-font-size-mobile: 1.5rem;
+$navbar-brand-height: 0.5rem;
+//$navbar-brand-padding-y: 0.5rem;
+//$navbar-toggler-padding-y: 0rem;
+//$navbar-toggler-padding-x: 1.25rem;
+//$navbar-toggler-font-size: 1.5rem;
+//$navbar-toggler-border-radius: 1rem;
+//$navbar-toggler-focus-width: 1rem;
+//$navbar-toggler-transition: box-shadow 3s ease-in;
+//$responsive-break: "lg" !default;
+//$navbar-collapse-responsive-break: $responsive-break !default;
+//$navbar-offcanvas-width: 300px !default;
+//$navbar-offcanvas-width: 99.5%;
+
+// List group
+$list-group-item-padding-y: $spacer * .35 !default;
+$list-group-item-padding-x: 0 !default;

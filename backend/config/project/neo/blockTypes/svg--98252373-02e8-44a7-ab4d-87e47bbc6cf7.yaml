@@ -1,0 +1,82 @@
+childBlocks: null
+color: null
+conditions: null
+description: ''
+enabled: true
+entryType: null
+field: 3b1e738c-dc73-4504-9532-08193c176f59 # Comps
+fieldLayouts:
+  87c271d5-9dfd-4b35-8f2e-e0129a5f313d:
+    cardThumbAlignment: end
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            dateAdded: '2025-10-31T13:11:02+00:00'
+            editCondition: null
+            elementCondition: null
+            fieldUid: 23f91390-c849-40af-8352-c951f754ceef # SVG
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 07e89ffd-5f0f-42d4-af19-4abe8a00ef13
+            userCondition: null
+            warning: null
+            width: 25
+          -
+            dateAdded: '2025-10-31T14:03:59+00:00'
+            editCondition: null
+            elementCondition: null
+            fieldUid: 3b6704b9-9ae8-4396-9ae5-8bfd6f316939 # Style
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: d0501447-846e-4de6-9d33-57c22c8b3093
+            userCondition: null
+            warning: null
+            width: 75
+          -
+            dateAdded: '2025-10-31T13:26:07+00:00'
+            editCondition: null
+            elementCondition: null
+            fieldUid: 646ee150-24cc-41fd-adf4-12d80a6664fb
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: af80dc87-5dec-405c-9ac6-62497dd17631
+            userCondition: null
+            warning: null
+            width: 75
+        name: Misc
+        uid: 8b2b1f0f-b5e4-438d-b254-25b391c3db1c
+        userCondition: null
+group: 72389ead-a876-426f-b8c6-c0be4bd3b161 # Comps
+groupChildBlockTypes: true
+handle: svg
+icon: null
+iconFilename: ''
+ignorePermissions: true
+maxBlocks: 0
+maxChildBlocks: 0
+maxSiblingBlocks: 0
+minBlocks: 0
+minChildBlocks: 0
+minSiblingBlocks: 0
+name: SVG
+topLevel: false

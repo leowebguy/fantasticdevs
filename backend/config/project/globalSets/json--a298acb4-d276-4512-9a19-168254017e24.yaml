@@ -1,0 +1,30 @@
+fieldLayouts:
+  dfbdf12f-8791-4e00-8c53-8d6e467f2f8f:
+    cardThumbAlignment: end
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            dateAdded: '2025-10-30T17:57:37+00:00'
+            editCondition: null
+            elementCondition: null
+            fieldUid: 600b2132-558c-4ccc-9cbe-bced844c9403 # JSON
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: cb294d2e-e19a-4a23-a018-76cb161ec9ac
+            userCondition: null
+            warning: null
+            width: 100
+        name: Misc
+        uid: 8631951b-ec8d-48de-a1cb-1b2265f9e309
+        userCondition: null
+handle: json
+name: JSON
+sortOrder: 3

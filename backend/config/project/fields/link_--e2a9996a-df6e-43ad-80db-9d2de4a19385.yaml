@@ -1,0 +1,49 @@
+columnSuffix: null
+handle: link_
+instructions: null
+name: Link
+searchable: false
+settings:
+  advancedFields:
+    - target
+    - class
+  fullGraphqlData: true
+  maxLength: 255
+  showLabelField: true
+  typeSettings:
+    __assoc__:
+      -
+        - entry
+        -
+          __assoc__:
+            -
+              - sources
+              -
+                - 'section:c4b4f50d-7d62-4a4c-bbf8-7aae00fd82c7' # Pages
+                - 'section:6d06d514-e77d-4295-a6a5-5b4749e10250' # Modals
+            -
+              - showUnpermittedSections
+              - ''
+            -
+              - showUnpermittedEntries
+              - ''
+      -
+        - url
+        -
+          __assoc__:
+            -
+              - allowRootRelativeUrls
+              - '1'
+            -
+              - allowAnchors
+              - ''
+            -
+              - allowCustomSchemes
+              - ''
+  types:
+    - entry
+    - url
+    - tel
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Link

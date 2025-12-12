@@ -1,0 +1,48 @@
+childBlocks: null
+color: null
+conditions: null
+description: ''
+enabled: true
+entryType: null
+field: 3b1e738c-dc73-4504-9532-08193c176f59 # Comps
+fieldLayouts:
+  722dfd84-0df7-437d-9a9a-495867db4075:
+    cardThumbAlignment: end
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            dateAdded: '2025-11-09T23:18:33+00:00'
+            editCondition: null
+            elementCondition: null
+            fieldUid: 67d496d8-cb84-43a5-b5f4-5b794824def5 # Modal
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: cd263d5e-878a-4d54-9e51-3ccf1f264701
+            userCondition: null
+            warning: null
+            width: 25
+        name: Misc
+        uid: 3066fca3-7d2a-40f7-a169-c44f0bedc8f8
+        userCondition: null
+group: cacd7460-349e-46b2-92e0-55ea1ffdd0b0 # Misc
+groupChildBlockTypes: true
+handle: modal
+icon: null
+iconFilename: ''
+ignorePermissions: true
+maxBlocks: 0
+maxChildBlocks: 0
+maxSiblingBlocks: 0
+minBlocks: 0
+minChildBlocks: 0
+minSiblingBlocks: 0
+name: Modal
+topLevel: true

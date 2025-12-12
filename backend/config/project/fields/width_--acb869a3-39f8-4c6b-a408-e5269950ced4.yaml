@@ -1,0 +1,19 @@
+columnSuffix: null
+handle: width_
+instructions: null
+name: Width
+searchable: false
+settings:
+  decimals: 0
+  defaultValue: 640
+  max: 2048
+  min: 64
+  prefix: null
+  previewCurrency: null
+  previewFormat: none
+  size: 4
+  step: null
+  suffix: null
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Number

@@ -1,0 +1,24 @@
+:root {
+    --fs-small: #{$small-font-size};
+    --fs-smaller: #{$smaller-font-size};
+
+    // var(--spacer-2)
+    //@each $space, $value in $spacers {
+    //    --spacer-#{$space}: #{$value};
+    //}
+
+    // var(--fw-bold)
+    //@each $w, $value in $font-weights {
+    //    --fw-#{$w}: #{$value};
+    //}
+
+    // var(--fs-5)
+    @each $size, $value in $font-sizes {
+        --fs-#{$size}: #{$value};
+    }
+
+    // var(--blue-200)
+    //@each $n, $value in $blues {
+    //    --blue-#{$n}: #{$value};
+    //}
+}

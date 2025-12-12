@@ -1,0 +1,19 @@
+.env
+.env.*
+!.env.example
+
+# dev/build outputs
+.output
+.data
+.nuxt
+.nitro
+.cache
+dist
+
+# npm
+node_modules
+
+# logs
+logs
+*.log
+

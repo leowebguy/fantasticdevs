@@ -1,0 +1,65 @@
+childBlocks: null
+color: null
+conditions: null
+description: ''
+enabled: true
+entryType: null
+field: 3b1e738c-dc73-4504-9532-08193c176f59 # Comps
+fieldLayouts:
+  4edc55d9-0897-4f2c-86a9-25a49167cee9:
+    cardThumbAlignment: end
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            dateAdded: '2025-10-18T02:48:16+00:00'
+            editCondition: null
+            elementCondition: null
+            fieldUid: 11c14496-49e8-4e45-92bc-b7153b2ea256 # Copy
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 1e8edc5d-8bb8-46c3-8cd9-b41a8e52cc8d
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2025-10-18T02:48:16+00:00'
+            editCondition: null
+            elementCondition: null
+            fieldUid: c1b02736-633f-4f45-82c0-6acfd2a53144 # Class
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 201e4245-7587-4feb-bd22-5e1583803866
+            userCondition: null
+            warning: null
+            width: 25
+        name: Misc
+        uid: e3fe0196-53ba-4cc0-ba4e-2898c6be1de9
+        userCondition: null
+group: 72389ead-a876-426f-b8c6-c0be4bd3b161 # Comps
+groupChildBlockTypes: true
+handle: copy
+icon: null
+iconFilename: ''
+ignorePermissions: true
+maxBlocks: 0
+maxChildBlocks: 0
+maxSiblingBlocks: 0
+minBlocks: 0
+minChildBlocks: 0
+minSiblingBlocks: 0
+name: Copy
+topLevel: false

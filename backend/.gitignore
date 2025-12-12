@@ -1,0 +1,37 @@
+.env
+.env.*
+!.env.example
+
+config/license*
+vendor
+plugins/*
+auth.json
+
+# storage
+storage/*
+storage/backups/*
+!storage/backups/seed.sql
+!storage/rebrand
+!storage/rebrand/**
+!storage/userphotos
+!storage/userphotos/**
+
+# testing
+templates/test.twig
+tests/_craftstorage
+tests/_craft/web
+tests/_jest/coverage
+
+# web
+web/css
+web/js
+web/fonts
+web/vendor
+web/pdf
+web/cache
+web/cpresources
+!web/.htaccess
+
+# volumes
+web/img
+web/svg

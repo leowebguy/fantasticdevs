@@ -1,0 +1,24 @@
+defaultPlacement: end
+enableVersioning: true
+entryTypes:
+  -
+    uid: 697da4c2-e02f-4f49-9d76-e22609ceda25 # Page
+handle: statics
+maxAuthors: 1
+name: Statics
+previewTargets:
+  -
+    label: 'Primary entry page'
+    refresh: ''
+    urlFormat: 'statics/{slug}'
+propagationMethod: all
+siteSettings:
+  58ccb571-6c72-449f-8e7b-6f43c5d416b3: # $PRIMARY_SITE_NAME
+    enabledByDefault: true
+    hasUrls: true
+    template: null
+    uriFormat: 'statics/{slug}'
+structure:
+  maxLevels: 1
+  uid: b1919cad-abef-4af6-96ce-98a77068884e
+type: structure

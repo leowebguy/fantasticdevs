@@ -1,0 +1,56 @@
+/*===================================
+    Bootstrap
+====================================*/
+@import "_bootstrap/bootstrap";
+
+/*===================================
+    Fonts
+====================================*/
+@import '_fonts/inter';
+//@import '_fonts/open-sans';
+//@import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap');
+//@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@200,600&display=swap');
+
+/*===================================
+    Custom
+====================================*/
+h1, h2, h3, h4, h5, p {
+    &:last-child {
+        @extend .mb-0;
+    }
+}
+
+fieldset {
+    @extend .position-relative;
+    @extend .mb-3;
+}
+
+.btn {
+    @extend .text-uppercase;
+    @extend .d-inline-flex;
+    @extend .align-self-start;
+    @extend .me-3;
+    @extend .mb-3;
+}
+
+.bg-image {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    top: 0;
+}
+
+.bg-cover {
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    backface-visibility: hidden;
+}
+
+.bg-contain {
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+    backface-visibility: hidden;
+}

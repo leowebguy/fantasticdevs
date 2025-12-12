@@ -1,0 +1,66 @@
+childBlocks:
+  - div
+color: null
+conditions: null
+description: ''
+enabled: true
+entryType: null
+field: 3b1e738c-dc73-4504-9532-08193c176f59 # Comps
+fieldLayouts:
+  7f79f048-4f38-4836-8781-fb54167dc8eb:
+    cardThumbAlignment: end
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            dateAdded: '2025-10-18T02:33:24+00:00'
+            editCondition: null
+            elementCondition: null
+            fieldUid: ff1cccc3-2a5c-41a8-bc01-49add30538b7 # ID
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: e2b47b92-63ee-4e35-89b1-2f9e4c1b2454
+            userCondition: null
+            warning: null
+            width: 25
+          -
+            dateAdded: '2025-10-18T02:33:24+00:00'
+            editCondition: null
+            elementCondition: null
+            fieldUid: c1b02736-633f-4f45-82c0-6acfd2a53144 # Class
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: f12f622f-4fe2-46fb-87f0-3d7924852837
+            userCondition: null
+            warning: null
+            width: 25
+        name: Misc
+        uid: 194c0fbb-0566-4e01-b1ae-507e47ea373e
+        userCondition: null
+group: null
+groupChildBlockTypes: true
+handle: section
+icon: null
+iconFilename: ''
+ignorePermissions: true
+maxBlocks: 0
+maxChildBlocks: 0
+maxSiblingBlocks: 0
+minBlocks: 0
+minChildBlocks: 0
+minSiblingBlocks: 0
+name: Section
+topLevel: true

@@ -1,0 +1,116 @@
+childBlocks: null
+color: null
+conditions: null
+description: ''
+enabled: true
+entryType: null
+field: 3b1e738c-dc73-4504-9532-08193c176f59 # Comps
+fieldLayouts:
+  6b230b3b-2649-40ef-b18e-d318e2cc2e1c:
+    cardThumbAlignment: end
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            dateAdded: '2025-10-20T13:45:18+00:00'
+            editCondition: null
+            elementCondition: null
+            fieldUid: bf5c2478-dd3b-43cd-be3e-9d8c3665bbc1 # Img
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 1d4e6261-2b91-4c8a-87ef-b9a78f2c9305
+            userCondition: null
+            warning: null
+            width: 25
+          -
+            dateAdded: '2025-10-18T19:13:43+00:00'
+            editCondition: null
+            elementCondition: null
+            fieldUid: ce9d0339-ecbd-4167-a153-845ba933d664
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: dc4f06ad-5615-4939-b2ee-8897a1dbc1f5
+            userCondition: null
+            warning: null
+            width: 25
+          -
+            dateAdded: '2025-10-18T19:13:43+00:00'
+            editCondition: null
+            elementCondition: null
+            fieldUid: c1b02736-633f-4f45-82c0-6acfd2a53144 # Class
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 55f1c6ce-0bc0-4370-a046-b21b8121c2ae
+            userCondition: null
+            warning: null
+            width: 25
+          -
+            dateAdded: '2025-10-18T19:13:43+00:00'
+            editCondition: null
+            elementCondition: null
+            fieldUid: acb869a3-39f8-4c6b-a408-e5269950ced4 # Width
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 29708c07-6b19-4702-951d-1782bbcf1547
+            userCondition: null
+            warning: null
+            width: 25
+          -
+            dateAdded: '2025-10-18T19:13:43+00:00'
+            editCondition: null
+            elementCondition: null
+            fieldUid: d1bae32f-ce42-49c5-95bf-eed97cdc0407 # Height
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 1967ec7c-b5e1-47a7-9786-f42541c3e859
+            userCondition: null
+            warning: null
+            width: 25
+        name: Misc
+        uid: 020818f8-5de5-487f-8856-bde8a8d1a3db
+        userCondition: null
+group: 72389ead-a876-426f-b8c6-c0be4bd3b161 # Comps
+groupChildBlockTypes: true
+handle: img
+icon: null
+iconFilename: ''
+ignorePermissions: true
+maxBlocks: 0
+maxChildBlocks: 0
+maxSiblingBlocks: 0
+minBlocks: 0
+minChildBlocks: 0
+minSiblingBlocks: 0
+name: Img
+topLevel: false

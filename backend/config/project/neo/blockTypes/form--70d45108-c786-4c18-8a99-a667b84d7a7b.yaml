@@ -1,0 +1,40 @@
+childBlocks: null
+color: null
+conditions: null
+description: ''
+enabled: true
+entryType: null
+field: 3b1e738c-dc73-4504-9532-08193c176f59 # Comps
+fieldLayouts:
+  6d41f296-5f5c-4a8c-a4ad-9c4111326e70:
+    cardThumbAlignment: end
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            content: "#### File: _frontend/components/form.vue_\r\n#### Adjust configs [here](/admin/globals/json)"
+            dateAdded: '2025-11-03T16:04:26+00:00'
+            displayInPane: true
+            elementCondition: null
+            type: craft\fieldlayoutelements\Markdown
+            uid: 863dcbb4-1f5e-4e7e-866d-c1c02e65a923
+            userCondition: null
+            width: 100
+        name: Misc
+        uid: 46a3f6cb-3600-477c-8a8f-013b87c5b331
+        userCondition: null
+group: 72389ead-a876-426f-b8c6-c0be4bd3b161 # Comps
+groupChildBlockTypes: true
+handle: form
+icon: null
+iconFilename: ''
+ignorePermissions: true
+maxBlocks: 0
+maxChildBlocks: 0
+maxSiblingBlocks: 0
+minBlocks: 0
+minChildBlocks: 0
+minSiblingBlocks: 0
+name: Form
+topLevel: false

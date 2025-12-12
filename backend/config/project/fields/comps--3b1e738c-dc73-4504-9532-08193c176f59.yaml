@@ -1,0 +1,18 @@
+columnSuffix: null
+handle: comps
+instructions: null
+name: Comps
+searchable: false
+settings:
+  maxBlocks: null
+  maxLevels: 7
+  maxTopBlocks: null
+  minBlocks: null
+  minLevels: null
+  minTopBlocks: null
+  newBlockButtonLabel: null
+  propagationKeyFormat: null
+  propagationMethod: all
+translationKeyFormat: null
+translationMethod: site
+type: benf\neo\Field

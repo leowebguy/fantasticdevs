@@ -1,0 +1,186 @@
+dateModified: 1763750207
+elementSources:
+  craft\elements\Entry:
+    -
+      heading: Pages
+      key: 'heading:56e46521-b73b-49ad-8269-e62a6f71aa19'
+      type: heading
+    -
+      defaultSort:
+        - structure
+        - asc
+      defaultViewMode: ''
+      disabled: false
+      key: 'section:c4b4f50d-7d62-4a4c-bbf8-7aae00fd82c7' # Pages
+      tableAttributes:
+        - status
+        - postDate
+        - expiryDate
+        - link
+      type: native
+    -
+      heading: MISC
+      key: 'heading:a4968e10-db90-424b-8751-9dd1540031af'
+      type: heading
+    -
+      defaultSort:
+        - structure
+        - asc
+      defaultViewMode: ''
+      disabled: false
+      key: 'section:1cb3b272-0dab-467f-a33f-6aa5c70790e1' # Statics
+      tableAttributes:
+        - status
+        - postDate
+        - expiryDate
+        - link
+      type: native
+    -
+      key: 'section:6d06d514-e77d-4295-a6a5-5b4749e10250' # Modals
+      type: native
+    -
+      defaultSort:
+        - postDate
+        - desc
+      defaultViewMode: ''
+      disabled: true
+      key: '*'
+      tableAttributes:
+        - status
+        - section
+        - postDate
+        - expiryDate
+        - link
+      type: native
+email:
+  fromEmail: $EMAIL
+  fromName: $SYSTEM_NAME
+  replyToEmail: null
+  template: null
+  transportSettings:
+    password: $GMAIL_PW
+    username: $GMAIL_USR
+  transportType: craft\mail\transportadapters\Gmail
+fs:
+  s3:
+    hasUrls: true
+    name: S3
+    settings:
+      addSubfolderToRootUrl: true
+      autoFocalPoint: false
+      bucket: $S3_BUCKET
+      bucketSelectionMode: manual
+      cfDistributionId: ''
+      cfPrefix: ''
+      expires: ''
+      keyId: $S3_KEY
+      makeUploadsPublic: true
+      region: $S3_REGION
+      secret: $S3_SECRET
+      storageClass: ''
+      subfolder: $S3_SUBFOLDER
+    type: craft\awss3\Fs
+    url: $S3_URL
+meta:
+  __names__:
+    1cb3b272-0dab-467f-a33f-6aa5c70790e1: Statics # Statics
+    1eac1d3b-afcc-4979-9e89-bcb65a89b6a2: Clearfix # Clearfix
+    2b829e15-a7bd-4ab0-9050-dcdfe44499cf: 'Public Schema' # Public Schema
+    2fd068a0-a9f1-47db-a612-f8843b38ebbb: Active # Active
+    3b1e738c-dc73-4504-9532-08193c176f59: Comps # Comps
+    3b6704b9-9ae8-4396-9ae5-8bfd6f316939: Style # Style
+    6d0d3aa4-84be-441d-8fcc-2ab2d6db2503: Starters # Starters
+    6d06d514-e77d-4295-a6a5-5b4749e10250: Modals # Modals
+    6d752ebe-b268-4c30-9a10-82fff34bced3: Tag # Tag
+    7dac7ab3-08a0-4af8-ba7c-cbecd0726f08: Simple # Simple
+    7e89e09c-6139-42ac-959e-8c30d6e4c9ee: Label # Label
+    11c14496-49e8-4e45-92bc-b7153b2ea256: Copy # Copy
+    23f91390-c849-40af-8352-c951f754ceef: SVG # SVG
+    24b1be1b-6e94-4ffd-b65c-786a37a9e951: Div # Div
+    48f8c1bc-e02d-49ac-af6b-8e10502558a9: Copy # Copy
+    58ccb571-6c72-449f-8e7b-6f43c5d416b3: $PRIMARY_SITE_NAME # $PRIMARY_SITE_NAME
+    67d496d8-cb84-43a5-b5f4-5b794824def5: Modal # Modal
+    70d45108-c786-4c18-8a99-a667b84d7a7b: Form # Form
+    72d97187-d1db-463a-a31c-16c63adbb72e: Link # Link
+    99babefa-9d80-4d32-b96b-d34841ace4f3: Clearfix # Clearfix
+    199e387e-439e-49e5-a36d-d5f9a0aff833: Section # Section
+    218ca79b-a5e7-4be4-aa49-da386237d0d8: Markup # Markup
+    495d8077-4132-4411-a5fd-90dcf3867dfe: Static # Static
+    541f7a0c-0e80-42d1-88ce-dc724469b21a: Div # Div
+    600b2132-558c-4ccc-9cbe-bced844c9403: JSON # JSON
+    697da4c2-e02f-4f49-9d76-e22609ceda25: Page # Page
+    709c84f9-b563-4446-91cf-72bf3ac9f8f2: Copy # Copy
+    870d73df-4a0c-437e-b940-163706690e27: Logo # Logo
+    920df38c-9e5e-4f45-ab0a-7e0ed71678ca: 'Comps Short' # Comps Short
+    6409ebc9-519b-4f54-bae0-4dfcd4df7428: Size # Size
+    72389ead-a876-426f-b8c6-c0be4bd3b161: Comps # Comps
+    94160adb-ed75-4c00-a2e2-d50065171812: JS # JS
+    239451a1-6f87-4a35-9c7a-c9ae844c413a: Comps # Comps
+    5906505c-1796-4f7e-9047-a65eabd00200: Heading # Heading
+    98252373-02e8-44a7-ab4d-87e47bbc6cf7: SVG # SVG
+    a0380aee-c723-49f7-a7ed-74648b932a26: Header # Header
+    a93c3e54-6599-4386-82f3-93a3be5d3bf6: Form # Form
+    a99fe336-16e5-4e03-a3e6-59736d876986: webp600x400 # webp600x400
+    a262ee27-81f4-42a3-aa48-b4bb9c89d008: Title # Title
+    a298acb4-d276-4512-9a19-168254017e24: JSON # JSON
+    a948170b-d933-4347-a564-c1d4ef2f4a4a: Img # Img
+    acb869a3-39f8-4c6b-a408-e5269950ced4: Width # Width
+    b3e3d729-2be1-4f31-8155-0552917f7095: Text # Text
+    b579b454-12bd-4710-a436-c26907141957: Full # Full
+    b9987aff-eaac-4df2-909c-be3fea6c7b3d: Modal # Modal
+    bf5c2478-dd3b-43cd-be3e-9d8c3665bbc1: Img # Img
+    c1b02736-633f-4f45-82c0-6acfd2a53144: Class # Class
+    c4b4f50d-7d62-4a4c-bbf8-7aae00fd82c7: Pages # Pages
+    c447bfc5-8050-4e2f-a48f-6eef1b70b86c: CSS # CSS
+    cacd7460-349e-46b2-92e0-55ea1ffdd0b0: Misc # Misc
+    cbbd5bad-9fdb-42dc-a4cc-e1282a8ba574: SVG # SVG
+    cbe3b8a2-df05-4d3b-9545-8533beaa6eb8: Markup # Markup
+    d1bae32f-ce42-49c5-95bf-eed97cdc0407: Height # Height
+    d1ce5931-77c8-4b1a-8c93-c12972fd4559: Heading # Heading
+    d4ca6878-5b26-477d-8b90-4052d4066150: Div # Div
+    d40ec8a4-08c5-4fa1-8ba0-dba1bac908fa: Modal # Modal
+    e037630a-7de0-4588-b00d-12779ef07adf: Footer # Footer
+    e2a9996a-df6e-43ad-80db-9d2de4a19385: Link # Link
+    e5d150dd-4f3d-47b7-9f6e-153c1137e805: Static # Static
+    ebc902a1-4068-455f-af71-d4d45481ef52: Markup # Markup
+    f0b59a72-2452-47c5-9cac-afe48f837888: Link # Link
+    fc1f2ac6-c009-4af8-9b4f-8451b1811ca4: Img # Img
+    fd0d87d9-b552-445e-bfcd-b61abb8f8f04: Accordion # Accordion
+    ff1cccc3-2a5c-41a8-bc01-49add30538b7: ID # ID
+plugins:
+  aws-s3:
+    edition: standard
+    enabled: true
+    schemaVersion: '2.0'
+  ckeditor:
+    edition: standard
+    enabled: true
+    schemaVersion: 3.0.0.0
+  codefield:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+  neo:
+    edition: standard
+    enabled: true
+    licenseKey: $NEO_KEY
+    schemaVersion: 5.1.0.1
+    settings:
+      alwaysShowButtonsAboveField: false
+      blockAnchorIdPrefix: blockAnchorId
+      blockTypeIconPath: '@webroot'
+      blockTypeIconSelectMode: sources
+      blockTypeIconSources: '*'
+      collapseAllBlocks: false
+      defaultAlwaysShowGroupDropdowns: true
+      enableBlockTypeUserPermissions: false
+      newBlockMenuStyle: classic
+      optimiseSearchIndexing: true
+      resaveFieldBlockStructuresInIndividualJobs: false
+system:
+  edition: solo
+  live: true
+  name: $SYSTEM_NAME
+  retryDuration: null
+  schemaVersion: 5.8.0.3
+  timeZone: America/New_York

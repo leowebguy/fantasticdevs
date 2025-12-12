@@ -1,0 +1,16 @@
+columnSuffix: null
+handle: label_
+instructions: null
+name: Label
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: 34
+  code: false
+  initialRows: 4
+  multiline: false
+  placeholder: 'i.e. alarm-fill'
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText
