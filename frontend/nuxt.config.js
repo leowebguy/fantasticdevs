@@ -2,6 +2,7 @@
  * https://nuxt.com/docs/api/configuration/nuxt-config
  */
 
+const env = process.env.NUXT_ENV;
 const siteName = process.env.NUXT_SITE_NAME;
 const baseUrl = process.env.NUXT_BASE_URL;
 
@@ -33,6 +34,8 @@ const defineNuxtConfig = {
             meta: [
                 { charset: 'utf-8' },
                 { name: 'viewport', content: 'width=device-width, initial-scale=1' },
+                { name: 'robots', content: (env === 'prod' ? 'all' : 'noindex, nofollow, noimageindex') },
+                { name: 'googlebot', content: (env === 'prod' ? 'all' : 'noindex, nofollow, noimageindex') },
                 { name: 'msapplication-TileColor', content: '#fff' },
                 { name: 'theme-color', content: '#fff' }
             ]
@@ -50,7 +53,7 @@ const defineNuxtConfig = {
     },
     runtimeConfig: {
         public: {
-            NUXT_ENV: process.env.NUXT_ENV,
+            NUXT_ENV: env,
             NUXT_SITE_NAME: siteName,
             NUXT_BASE_URL: baseUrl,
             NUXT_CRAFT_URL: process.env.NUXT_CRAFT_URL,

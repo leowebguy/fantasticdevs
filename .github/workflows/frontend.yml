@@ -1,0 +1,40 @@
+name: frontend
+
+on:
+  workflow_call:
+    inputs:
+      git_env:
+        description: Github Actions Env
+        type: string
+        required: true
+        default: ""
+
+jobs:
+  frontend:
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: ${{ inputs.git_env }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GHA_AUTH }}
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - run: cd frontend && npm ci --no-audit --legacy-peer-deps
+      - run: cd frontend && npx nuxt build --preset github_pages --non-interactive
+        env:
+          NUXT_ENV: 'prod'
+          NUXT_SITE_NAME: 'Fantastic Devs'
+          NUXT_BASE_URL: ${{ vars.NUXT_BASE_URL }}
+          NUXT_CRAFT_URL: ${{ vars.NUXT_CRAFT_URL }}
+          NUXT_TURNSTILE_KEY: ${{ vars.NUXT_TURNSTILE_KEY }}
+          NUXT_GRAPHQL_TOKEN: ${{ vars.NUXT_GRAPHQL_TOKEN }}
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: ./frontend/.output/public
+      - uses: actions/deploy-pages@v4
+        id: deployment
