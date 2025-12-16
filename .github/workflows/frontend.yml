@@ -9,6 +9,11 @@ on:
         required: true
         default: ""
 
+permissions:
+  id-token: write
+  contents: read
+  actions: read
+
 jobs:
   frontend:
     runs-on: ubuntu-latest
