@@ -1,4 +1,4 @@
-name: build
+name: main
 
 on:
   push:
@@ -10,14 +10,13 @@ on:
 
 jobs:
   backend:
-    uses: ./.github/workflows/backend.yml@main
+    uses: leowebguy/fantasticdevs/.github/workflows/backend.yml@main
       with:
         dir: 'fantasticdevs'
       secrets: inherit
   frontend:
     needs: backend
-    uses: ./.github/workflows/frontend.yml@main
+    uses: leowebguy/fantasticdevs/.github/workflows/frontend.yml@main
       with:
         git_env: 'github-pages-prod'
       secrets: inherit
-

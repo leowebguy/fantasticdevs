@@ -1,4 +1,4 @@
-name: build
+name: preprod
 
 on:
   push:
@@ -10,14 +10,13 @@ on:
 
 jobs:
   backend:
-    uses: ./.github/workflows/backend.yml@preprod
+    uses: leowebguy/fantasticdevs/.github/workflows/backend.yml@preprod
       with:
         dir: 'fantasticdevs-preprod'
       secrets: inherit
   frontend:
     needs: backend
-    uses: ./.github/workflows/frontend.yml@preprod
+    uses: leowebguy/fantasticdevs/.github/workflows/frontend.yml@preprod
       with:
         git_env: 'github-pages-preprod'
       secrets: inherit
-
