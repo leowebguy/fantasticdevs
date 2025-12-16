@@ -8,6 +8,11 @@ on:
       - '.ddev/**'
       - 'storage/backups/**/*'
 
+permissions:
+  id-token: write
+  contents: read
+  actions: read
+
 jobs:
   backend:
     uses: ./.github/workflows/backend.yml

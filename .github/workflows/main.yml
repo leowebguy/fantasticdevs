@@ -8,6 +8,11 @@ on:
       - '.ddev/**'
       - 'storage/backups/**/*'
 
+permissions:
+  id-token: write
+  contents: read
+  actions: read
+
 jobs:
   backend:
     uses: ./.github/workflows/backend.yml
@@ -18,5 +23,5 @@ jobs:
     needs: backend
     uses: ./.github/workflows/frontend.yml
     with:
-      git_env: 'github-pages-prod'
+      git_env: 'github-pages-main'
     secrets: inherit
