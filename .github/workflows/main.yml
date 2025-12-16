@@ -10,13 +10,13 @@ on:
 
 jobs:
   backend:
-    uses: leowebguy/fantasticdevs/.github/workflows/backend.yml@main
-      with:
-        dir: 'fantasticdevs'
-      secrets: inherit
+    uses: ./.github/workflows/backend.yml@main
+    with:
+      dir: 'fantasticdevs'
+    secrets: inherit
   frontend:
     needs: backend
-    uses: leowebguy/fantasticdevs/.github/workflows/frontend.yml@main
-      with:
-        git_env: 'github-pages-prod'
-      secrets: inherit
+    uses: ./.github/workflows/frontend.yml@main
+    with:
+      git_env: 'github-pages-prod'
+    secrets: inherit
