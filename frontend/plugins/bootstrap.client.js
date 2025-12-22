@@ -10,6 +10,7 @@
 import Collapse from 'bootstrap/js/dist/collapse';
 // import Dropdown from 'bootstrap/js/dist/dropdown';
 import Modal from 'bootstrap/js/dist/modal';
+// import Offcanvas from 'bootstrap/js/dist/offcanvas';
 // import Popover from 'bootstrap/js/dist/popover';
 // import Scrollspy from 'bootstrap/js/dist/scrollspy';
 // import Tab from 'bootstrap/js/dist/tab';
@@ -19,4 +20,5 @@ import Modal from 'bootstrap/js/dist/modal';
 export default defineNuxtPlugin(nuxtApp => {
     nuxtApp.provide('collapse', Collapse);
     nuxtApp.provide('modal', Modal);
+    // nuxtApp.provide('offcanvas', Offcanvas);
 });

@@ -33,7 +33,7 @@ defineProps({
 
 <template>
     <div :id="data.id?.length ? data.id : data.uid?.slice(-6)" :class="[data.div, {
-          'justify-content-center align-items-center': data.div === 'row',
+          'row-cols-1 row-cols-lg-2 gap-4 gap-lg-0 justify-content-center align-items-center': data.div === 'row',
           'shadow-sm': data.div === 'card'
         }]">
         <template v-for="child in data.children" :key="child.uid">
