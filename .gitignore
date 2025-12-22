@@ -3,7 +3,7 @@
 # ddev
 /.ddev/*
 !/.ddev/config.yaml
-!/.ddev/nginx_full/api-site.conf
+!/.ddev/nginx_full/cms-site.conf
 !/.ddev/nginx_full/nuxt-site.conf
 
 # ide

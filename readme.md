@@ -81,7 +81,7 @@ We’ve split the project directory into two folders, `backend/` and `frontend/`
 
 The `backend/` directory is predominantly a standard Craft installation, so [its structure](https://craftcms.com/docs/5.x/system/directory-structure.html) should be familiar. Craft is configured to run in [headless mode](https://craftcms.com/docs/5.x/reference/config/general.html#headlessmode), which means it doesn’t perform any element routing, nor template rendering—in fact, it will only respond to _control panel_, _action_, and static asset requests (like any images you might upload).
 
-Craft uses the `PRIMARY_SITE_URL` environment variable to generate fully-qualified URLs for front-end pages (and assets), and `CRAFT_BASE_CP_URL` to build control panel URLs.
+Craft uses the `PRIMARY_SITE_URL` environment variable to generate fully-qualified URLs for front-end pages (and assets), and `PRIMARY_CP_URL` to build control panel URLs.
 
 ### Front End
 
@@ -121,7 +121,7 @@ Nuxt also needs to be told what front-end URLs should look like:
 
 Finally, Craft may need to generate absolute URLs to the control panel in some scenarios:
 
-- Update `CRAFT_BASE_CP_URL` in `backend/.env`;
+- Update `PRIMARY_CP_URL` in `backend/.env`;
 
 Your production configuration will probably look different—as long as Nuxt knows where the GraphQL endpoint lives (`CRAFT_URL` in `frontend/.env`) and both Craft and Nuxt know how to generate public URLs (`PRIMARY_SITE_URL` in `backend/.env` and `BASE_URL` in `frontend/.env`, respectively) these URLs don’t need to be related in any specific way!
 

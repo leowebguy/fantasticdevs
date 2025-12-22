@@ -1,4 +1,4 @@
-.PHONY: i ino u da ni nu nci dev prod gen ncu ncuu apply rebuild migrate backup queue clear cg seedin seedout fixseed reset merge
+.PHONY: i ino u da ni nu nci dev prod gen ncu ncuu apply rebuild migrate backup queue clear cg seedin seedout fixseed reset prune
 .DEFAULT_GOAL := help
 
 ######################
@@ -92,11 +92,11 @@ reset:
 	ddev start
 	make clear
 
-merge:
-#	git add -A
-#	git commit -m '...'
-	git push . HEAD:main
-	git push origin main
+prune:
+	ddev poweroff
+	docker system prune --all
+	ddev start
+	make clear
 
 ######################
 ### TEST

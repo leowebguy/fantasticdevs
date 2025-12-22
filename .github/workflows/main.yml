@@ -18,7 +18,7 @@ jobs:
   backend:
     uses: ./.github/workflows/backend.yml
     with:
-      dir: 'fantasticdevs'
+      dir: 'gaunte'
     secrets: inherit
   frontend:
     needs: backend

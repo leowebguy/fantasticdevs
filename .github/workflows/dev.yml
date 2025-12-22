@@ -1,9 +1,9 @@
-name: preprod
+name: dev
 
 on:
   push:
     branches:
-      - preprod
+      - dev-off
     paths-ignore:
       - '.ddev/**'
       - 'storage/backups/**/*'
@@ -18,11 +18,11 @@ jobs:
   backend:
     uses: ./.github/workflows/backend.yml
     with:
-      dir: 'fantasticdevs-preprod'
+      dir: 'gaunte-dev'
     secrets: inherit
   frontend:
     needs: backend
     uses: ./.github/workflows/frontend.yml
     with:
-      git_env: 'github-pages-preprod'
+      git_env: 'github-pages-dev'
     secrets: inherit

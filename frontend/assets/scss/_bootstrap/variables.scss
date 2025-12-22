@@ -16,13 +16,13 @@ $prefix: '';
 $min-contrast-ratio: 3 !default;
 
 $blue: #0d5cd1 !default;
-$navy: #0E2951 !default;
+//$navy: #0E2951 !default;
 $green: #6aa62d !default;
-$fern: #3e7128 !default;
+//$fern: #3e7128 !default;
 $indigo: #6610f2 !default;
 $purple: #ab3192 !default;
 $violet: #7129a1 !default;
-$pink: #b8246e !default;
+$magenta: #ec008c !default;
 $red: #ad112a !default;
 $orange: #c4610e !default;
 $yellow: #d5a209 !default;
@@ -34,7 +34,7 @@ $white: #fff !default;
 $light: #f7f7f7 !default;
 $dark: #212121 !default;
 
-$theme: $blue !default;
+$theme: $magenta !default;
 
 $colors: (
     "blue": $blue,
@@ -44,7 +44,7 @@ $colors: (
     //"indigo": $indigo,
     //"purple": $purple,
     //"violet": $violet,
-    //"pink": $pink,
+    //"magenta": $magenta,
     "red": $red,
     "orange": $orange,
     "yellow": $yellow,
@@ -83,22 +83,22 @@ $themes: (
 
 $primary: $theme !default;
 $secondary: $yellow !default;
-$tertiary: $white !default;
-$success: $fern !default;
-$info: $cyan !default;
-$warning: $yellow !default;
-$danger: $red !default;
+//$tertiary: $white !default;
+//$success: $green !default;
+//$info: $cyan !default;
+//$warning: $yellow !default;
+//$danger: $red !default;
 
 $theme-colors: (
     "primary": $theme,
-    "secondary": $secondary,
+    "secondary": $yellow,
     //"tertiary": $tertiary,
-    "success": $success,
-    "info": $info,
-    "warning": $warning,
-    "danger": $danger,
+    "success": $green,
+    "info": $cyan,
+    "warning": $yellow,
+    "danger": $red,
     "blue": $blue,
-    "navy": $navy,
+    //"navy": $navy,
     "green": $green,
     //"fern": $fern,
     //"purple": $purple,
@@ -107,14 +107,11 @@ $theme-colors: (
     "black": $black,
     "white": $white,
     "light": $light,
-    "dark": $dark,
-    "theme": $theme,
+    "dark": $dark
 ) !default;
 
 $theme-colors-short: (
-    "theme": $theme,
-    //"theme-050": $theme-050,
-    "primary": $primary,
+    "primary": $magenta,
     "secondary": $secondary,
     //"blue": $blue,
     //"navy": $navy,
@@ -169,14 +166,14 @@ $box-shadow: 0 .35rem .7rem rgba($black, .15) !default;
 $box-shadow-lg: 0 1rem 3rem rgba($black, .175) !default;
 
 // Typography
-$font-family-sans-serif: 'Inter', system-ui !default;
-$font-weight-base: 200 !default;
+$font-family-sans-serif: 'Anonymous', system-ui !default;
+$font-weight-base: regular !default;
 
-$headings-font-family: $font-family-sans-serif;
-$headings-font-weight: 700 !default;
+$headings-font-family: 'Poppins', system-ui !default;
+$headings-font-weight: regular !default;
 $headings-margin-bottom: $spacer * 1.5 !default;
 
-$font-size-root: 16px !default;
+$font-size-root: 14px !default;
 $font-size-base: 1.125rem !default;
 $font-size-sm: $font-size-root * .825 !default;
 $font-size-lg: $font-size-root * 1.25 !default;

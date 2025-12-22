@@ -1,11 +1,11 @@
-name: fantasticdevs
+name: gaunte
 type: craftcms
 docroot: backend/web
 php_version: "8.2"
 webserver_type: nginx-fpm
 xdebug_enabled: false
 additional_hostnames:
-    - api.fantasticdevs
+    - cms.gaunte
 additional_fqdns: []
 database:
     type: mysql
@@ -13,7 +13,7 @@ database:
 use_dns_when_possible: true
 composer_version: "2"
 web_environment:
-    - VIRTUAL_HOST=fantasticdevs.ddev.site,api.fantasticdevs.ddev.site
+    - VIRTUAL_HOST=gaunte.ddev.site,cms.gaunte.ddev.site
     - NUXT_DEVTOOLS_HOST=0.0.0.0
 nodejs_version: "20"
 corepack_enable: false
@@ -71,7 +71,7 @@ web_extra_exposed_ports:
 
 # host_xhgui_port: 8142
 # Can be used to change the host binding port of the xhgui
-# application. Rarely used; only when port conflict and 
+# application. Rarely used; only when port conflict and
 # bind_all_ports is used (normally with router disabled)
 
 # xhprof_enabled: false  # Set to true to enable Xhprof and "ddev start" or "ddev restart"
