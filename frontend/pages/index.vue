@@ -6,11 +6,13 @@ import { pages as query } from '@/queries/pages';
 const Section = defineAsyncComponent(() => import('@/components/section'));
 const Static = defineAsyncComponent(() => import('@/components/static'));
 const Modal = defineAsyncComponent(() => import('@/components/modal'));
+const Hero = defineAsyncComponent(() => import('@/components/hero'));
 
 const components = {
     'section': Section,
     'static': Static,
-    'modal': Modal
+    'modal': Modal,
+    'hero': Hero
 };
 
 const { isPreview, previewToken } = preview();

@@ -1,0 +1,40 @@
+childBlocks: null
+color: null
+conditions: null
+description: ''
+enabled: true
+entryType: null
+field: 3b1e738c-dc73-4504-9532-08193c176f59 # Comps
+fieldLayouts:
+  2042dc9b-b506-475b-92af-bf114e8b7762:
+    cardThumbAlignment: end
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            content: '#### File: _frontend/components/hero.vue_'
+            dateAdded: '2025-11-03T16:04:26+00:00'
+            displayInPane: true
+            elementCondition: null
+            type: craft\fieldlayoutelements\Markdown
+            uid: a0b5aeb0-05dc-4f46-9d66-823acbc9825c
+            userCondition: null
+            width: 100
+        name: Misc
+        uid: 1a0acf02-41cd-4f20-b020-fc150349e936
+        userCondition: null
+group: cacd7460-349e-46b2-92e0-55ea1ffdd0b0 # Misc
+groupChildBlockTypes: true
+handle: hero
+icon: null
+iconFilename: ''
+ignorePermissions: true
+maxBlocks: 0
+maxChildBlocks: 0
+maxSiblingBlocks: 0
+minBlocks: 0
+minChildBlocks: 0
+minSiblingBlocks: 0
+name: Hero
+topLevel: true

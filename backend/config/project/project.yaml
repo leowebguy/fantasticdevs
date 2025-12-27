@@ -1,4 +1,4 @@
-dateModified: 1765556360
+dateModified: 1766508579
 elementSources:
   craft\elements\Entry:
     -
@@ -123,6 +123,7 @@ meta:
     a99fe336-16e5-4e03-a3e6-59736d876986: webp600x400 # webp600x400
     a262ee27-81f4-42a3-aa48-b4bb9c89d008: Title # Title
     a298acb4-d276-4512-9a19-168254017e24: JSON # JSON
+    a986e159-40aa-414f-b2bb-db2f71304fdd: Hero # Hero
     a948170b-d933-4347-a564-c1d4ef2f4a4a: Img # Img
     acb869a3-39f8-4c6b-a408-e5269950ced4: Width # Width
     b3e3d729-2be1-4f31-8155-0552917f7095: Text # Text

@@ -11,6 +11,7 @@ import { link_ } from '../components/link';
 import { markup_ } from '../components/markup';
 import { svg_ } from '../components/svg';
 import { accordion_ } from '../components/accordion';
+import { hero_ } from '../components/hero';
 
 const comps_ = `
 ${clearfix_}
@@ -36,6 +37,7 @@ export const entry = `
     value
   }
   comps {
+    ${hero_}
     ${modal_}
     ${static_}
     ${section_}

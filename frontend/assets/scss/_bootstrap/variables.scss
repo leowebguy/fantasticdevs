@@ -19,14 +19,14 @@ $blue: #0d5cd1 !default;
 //$navy: #0E2951 !default;
 $green: #6aa62d !default;
 //$fern: #3e7128 !default;
-$indigo: #6610f2 !default;
-$purple: #ab3192 !default;
-$violet: #7129a1 !default;
+//$indigo: #6610f2 !default;
+//$purple: #ab3192 !default;
+//$violet: #7129a1 !default;
 $magenta: #ec008c !default;
 $red: #ad112a !default;
 $orange: #c4610e !default;
 $yellow: #d5a209 !default;
-$teal: #14aa7e !default;
+//$teal: #14aa7e !default;
 $cyan: #0ca3c1 !default;
 $gray: #9398a4 !default;
 $black: #000 !default;
@@ -174,12 +174,12 @@ $headings-font-weight: regular !default;
 $headings-margin-bottom: $spacer * 1.5 !default;
 
 $font-size-root: 14px !default;
-$font-size-base: 1.125rem !default;
-$font-size-sm: $font-size-root * .825 !default;
+$font-size-base: 1rem !default;
+$font-size-sm: $font-size-root * 1 !default;
 $font-size-lg: $font-size-root * 1.25 !default;
 $lead-font-size: $font-size-root * 1.35 !default;
-$small-font-size: $font-size-sm !default;
-$smaller-font-size: $font-size-root * .7 !default;
+//$small-font-size: $font-size-sm !default;
+//$smaller-font-size: $font-size-root * .7 !default;
 
 // Buttons
 $btn-padding-y: .65rem !default;
